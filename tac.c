@@ -153,7 +153,7 @@ int write_reversed_lines(line_list_t *head, char *filename)
   }
   else
   {
-    return 1;
+    return EXIT_FAILURE;
   }
   if (file != stdout)
   {
